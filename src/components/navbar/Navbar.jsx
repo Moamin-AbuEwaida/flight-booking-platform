@@ -7,6 +7,7 @@ import Logo from "../../assets/paper-plane.png";
 
 const Navbar = () => {
   const [active, setActive] = useState("navBarMenu");
+  const [noBg, addBg] = useState("navBarMenu");
 
   const showNavBar = () => {
     setActive("navBarMenu showNavBar");
@@ -15,6 +16,16 @@ const Navbar = () => {
   const removeNavBar = () => {
     setActive("navBarMenu");
   };
+
+  const addBgColor = () => {
+    if (window.scrollY >= 10) {
+      addBg("navBarTwo navbar_With_Bg");
+    } else {
+      addBg("navBarTwo");
+    }
+  };
+
+  window.addEventListener("scroll", addBgColor);
 
   return (
     <div className="navBar flex">
@@ -35,7 +46,7 @@ const Navbar = () => {
           <span>Sign Out</span>
         </div>
       </div>
-      <div className="navBarTwo">
+      <div className={noBg}>
         <div className="logoDiv">
           <img src={Logo} alt="logo" className="logo" />
         </div>
