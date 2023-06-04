@@ -3,7 +3,7 @@ import { SiConsul } from "react-icons/si";
 import { BsPhoneVibrate } from "react-icons/bs";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { CgMenuGridO } from "react-icons/cg";
-import Logo from "../../assets/paper-plane-icon.jpeg";
+import Logo from "../../assets/paper-plane.png";
 
 const Navbar = () => {
   const [active, setActive] = useState("navBarMenu");

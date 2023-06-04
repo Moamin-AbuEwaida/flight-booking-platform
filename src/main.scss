@@ -176,7 +176,7 @@ h2 {
     }
     .logoDiv {
       .logo {
-        width: 10%;
+        width: 40%;
       }
     }
     @media screen and (max-width: 768px) {
@@ -233,6 +233,39 @@ h2 {
     .showNavBar {
       right: 50%;
       transition: 0.5s ease-in-out;
+    }
+  }
+}
+
+// home styling
+.home {
+  padding-top: 10rem;
+  text-align: center;
+  gap: 2rem;
+  flex-direction: column;
+  .mainText {
+    color: var(--blackColor);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 2.5rem;
+  }
+  .homeImages {
+    width: 100%;
+    margin: 1rem auto 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5rem;
+    .videoDiv {
+      width: 100%;
+      .video {
+        border-radius: 10rem;
+      }
+    }
+    .plane {
+      position: absolute;
+      width: 100%;
+      top: 10%;
     }
   }
 }
