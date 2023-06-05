@@ -449,3 +449,32 @@ h2 {
     }
   }
 }
+
+// Lounge section styling
+.lounge {
+  .sectionContainer {
+    gap: 1.5rem;
+    .imgDiv {
+      margin: auto;
+      img {
+        width: 100%;
+        max-width: 430px;
+        border-radius: 3rem;
+      }
+    }
+    .textDiv {
+      .grids {
+        margin-top: 1rem;
+        gap: 1.5rem;
+        .singleGrid {
+          .gridTitle {
+            display: block;
+            padding-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--blackColor);
+          }
+        }
+      }
+    }
+  }
+}
