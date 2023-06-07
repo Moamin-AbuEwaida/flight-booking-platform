@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/flight-booking-platform/static/css/main.d7a34681.css",
+    "main.js": "/flight-booking-platform/static/js/main.7107738e.js",
+    "static/media/video.mp4": "/flight-booking-platform/static/media/video.0fd5902841fade40f1af.mp4",
+    "static/media/dubai.jpg": "/flight-booking-platform/static/media/dubai.c650d3fa6d8b6b65ab48.jpg",
+    "static/media/traveler2.jpg": "/flight-booking-platform/static/media/traveler2.33d0df283fd51df454a8.jpg",
+    "static/media/traveler3.jpg": "/flight-booking-platform/static/media/traveler3.bc130f63daeacfdc7b85.jpg",
+    "static/media/traveler1.jpg": "/flight-booking-platform/static/media/traveler1.7107deb1b71e2d06dc44.jpg",
+    "static/media/paris.jpg": "/flight-booking-platform/static/media/paris.894c95582cc2c44f53f7.jpg",
+    "static/media/seats.jpg": "/flight-booking-platform/static/media/seats.522f9ed28fd4d0b53167.jpg",
+    "static/media/traveler4.jpg": "/flight-booking-platform/static/media/traveler4.4c700d012e23f965a3e2.jpg",
+    "static/media/newyork.jpg": "/flight-booking-platform/static/media/newyork.f1ece0002967d6e73db1.jpg",
+    "static/media/london.jpg": "/flight-booking-platform/static/media/london.c75f7760a29747e30bec.jpg",
+    "static/media/gridPic.jpg": "/flight-booking-platform/static/media/gridPic.97b987fcc75d0f50be78.jpg",
+    "static/media/flight.png": "/flight-booking-platform/static/media/flight.e50bb76081aecd934925.png",
+    "static/media/paper-plane.png": "/flight-booking-platform/static/media/paper-plane.b1645286c0a798261daf.png",
+    "index.html": "/flight-booking-platform/index.html",
+    "main.d7a34681.css.map": "/flight-booking-platform/static/css/main.d7a34681.css.map",
+    "main.7107738e.js.map": "/flight-booking-platform/static/js/main.7107738e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7a34681.css",
+    "static/js/main.7107738e.js"
+  ]
+}
